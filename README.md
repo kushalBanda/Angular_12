@@ -248,3 +248,46 @@ console.log(restUsers)
 let result = restUsers.filter(user => user.id > 2);
 console.log(result)
 ```
+
+# Angular
+### Binding Syntax
+* Interpolation
+* Property Binding
+* Event Binding
+
+## Directives 
+* Introduction
+* Types of Directives
+* Built-in Directives
+
+- Directives are use to change the behavior and apperance of DOM element. (A DOM element is a placeholder element that can be used to add HTML custom attributes, tags, or text to create an element on a canvas)
+- Directives can implement all lifecycle hooks.
+- Directives can not havve template.
+
+### Types of Diretives
+* Structural Directives 
+* Attribute Directives
+
+### Built-in Directives
+- *ngIf
+- *ngFor
+- *ngSwitch
+- ngClass
+- ngStyle
+
+**Note:** Structural Directives can modify your DOM.
+
+## Pipes
+* Pipes are used for data transformation.
+* Pipes don't change actual object. 
+
+### Built-in Pipes
+* DatePipe
+* UpperCasePipe
+* LowerCasePipe
+* CurrencyPipe
+* DecimalPipe
+* PercentPipe
+* JsonPipe
+* SlicePipe
+* AsyncPipe
