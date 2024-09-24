@@ -1,4 +1,4 @@
-# Angular 12 Basics
+# Angular
 
 ## Basic Commands 
 
@@ -281,7 +281,7 @@ console.log(result)
 * Pipes are used for data transformation.
 * Pipes don't change actual object. 
 
-### Built-in Pipes
+### Built-in Pipes ( | )
 * DatePipe
 * UpperCasePipe
 * LowerCasePipe
@@ -291,3 +291,25 @@ console.log(result)
 * JsonPipe
 * SlicePipe
 * AsyncPipe
+
+## Lifecycle Hooks
+* Component instance has lifecycle hooks which can help you to hook into different events on Components.
+* Lifecycle ends when component is destroyed.
+
+### Lifecycle Hooks
+* ngOnChanges
+    * Component Communication
+      * The scenario where two or more components needs to interact is know as component communication.
+      *  There are multiple ways to achieve component communication.
+      *  ### Ways to Component Interaction
+         *  Using @Input and @Output
+         *  Using @ViewChild and @ContentChild
+         *  Using Services 
+* ngOnInit
+* ngDoCheck
+* ngAfterContentInit
+* ngAfterContentChecked
+* ngAfterViewInit
+* ngAfterViewChecked
+* ngOnDestroy
+

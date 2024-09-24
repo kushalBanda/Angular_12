@@ -28,6 +28,7 @@ export class RoomsComponent implements OnInit {
       photos: "https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       checkinTime: new Date("23-sept-2024"),
       checkoutTime: new Date("12-Nov-2024"),
+      rating: 4.5
   },
   {
     roomNumber: 2,
@@ -37,6 +38,7 @@ export class RoomsComponent implements OnInit {
     photos: "https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     checkinTime: new Date("24-sept-2024"),
     checkoutTime: new Date("13-Nov-2024"),
+    rating: 4.7
   },
   {
     roomNumber: 3,
@@ -46,8 +48,8 @@ export class RoomsComponent implements OnInit {
     photos: "https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     checkinTime: new Date("25-sept-2024"),
     checkoutTime: new Date("14-Nov-2024"),
+    rating: 4.9
   },
-
 ]
 
   constructor() { }
